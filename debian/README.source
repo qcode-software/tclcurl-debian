@@ -1,0 +1,3 @@
+This package uses quilt to manage the patches in debian/patches.
+For further information please install the quilt package and read
+/usr/share/doc/quilt/README.source.

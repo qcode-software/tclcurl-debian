@@ -1,0 +1,3 @@
+version=3
+http://personal.telefonica.terra.es/web/getleft/tclcurl/download.html \
+download/tarball/TclCurl-([\d\.]+).tar.gz
