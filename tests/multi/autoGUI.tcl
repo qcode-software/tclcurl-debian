@@ -1,4 +1,4 @@
-#!/usr/bin/wish
+#!/usr/local/bin/wish8.4
 
 package require TclCurl
 
