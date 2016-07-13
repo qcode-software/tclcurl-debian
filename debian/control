@@ -2,7 +2,7 @@ Source: tclcurl
 Section: interpreters
 Priority: extra
 Maintainer: Sven Hoexter <hoexter@debian.org>
-Build-Depends: debhelper (>= 9), tcl-dev, libcurl4-gnutls-dev (>= 7.22.0),
+Build-Depends: debhelper (>= 9), tcl-dev, libcurl4-openssl-dev (>= 7.22.0),
  quilt, bc
 Homepage: http://personal.telefonica.terra.es/web/getleft/tclcurl/index.html
 Standards-Version: 3.9.3
@@ -11,10 +11,10 @@ Vcs-Browser: http://git.sven.stormbind.net/?p=sven/tclcurl.git
 
 Package: tclcurl
 Architecture: any
-Suggests: libcurl4-gnutls-dev
+Suggests: libcurl4-openssl-dev
 Depends: ${misc:Depends}, ${shlibs:Depends}, ${tclsh:Depends}
 Description: Tcl bindings to libcurl
  This module enables the use of libcurl in Tcl scripts. Please refer to
- the libcurl documentation available in the libcurl4-gnutls-dev package.
+ the libcurl documentation available in the libcurl4-openssl-dev package.
  .
- NOTE: the SSL support is provided by GnuTLS.
+ NOTE: the SSL support is provided by OpenSSL.
