@@ -2,7 +2,7 @@ Source: tclcurl
 Section: interpreters
 Priority: extra
 Maintainer: Sven Hoexter <hoexter@debian.org>
-Build-Depends: debhelper (>= 9), tcl-dev, libcurl4-openssl-dev (>= 7.22.0),
+Build-Depends: debhelper (>= 9), tcl8.5-dev, libcurl4-openssl-dev (>= 7.22.0),
  quilt, bc
 Homepage: http://personal.telefonica.terra.es/web/getleft/tclcurl/index.html
 Standards-Version: 3.9.3
