@@ -12,7 +12,7 @@ Vcs-Browser: http://git.sven.stormbind.net/?p=sven/tclcurl.git
 Package: tclcurl
 Architecture: any
 Suggests: libcurl4-openssl-dev
-Depends: ${misc:Depends}, ${shlibs:Depends}, tcl8.5 (>= 8.5.11-2)}
+Depends: ${misc:Depends}, ${shlibs:Depends}, tcl8.5 (>= 8.5.11-2)
 Description: Tcl bindings to libcurl
  This module enables the use of libcurl in Tcl scripts. Please refer to
  the libcurl documentation available in the libcurl4-openssl-dev package.
