@@ -1,3 +1,9 @@
+tclcurl (7.22.0-openssl1) unstable; urgency=low
+
+  * GnuTLS -> OpenSSL
+
+ -- David Osborne <david@qcode.co.uk>  Wed, 13 Jul 2016 10:48:44 +0100
+
 tclcurl (7.22.0-1) unstable; urgency=low
 
   * New upstream release
